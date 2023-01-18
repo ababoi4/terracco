@@ -1,0 +1,85 @@
+.map
+    min-height: 700px
+    &__item, &__link
+        font-family: 'Inter'
+        font-weight: 400
+        font-size: 18px
+        line-height: 123.52%
+        letter-spacing: 0.01em
+        color: $color-white
+    &__item
+        margin-bottom: 30px
+        list-style: none
+        margin-left: 40px
+        position: relative
+    &__item:last-child
+        margin-bottom: 0px
+    &__link
+        text-decoration: none
+
+.block-wrapper
+    display: flex
+    justify-content: flex-end
+    position: relative
+    margin-top: 300px
+    &__content
+        background-color: #000000
+        width: 515px
+        height: 397px
+        padding: 40px 40px
+        position: absolute
+        top: -243px
+        left: 0
+
+
+.content-title
+    font-family: 'Gotham'
+    font-weight: 500
+    font-size: 24px
+    line-height: 29px
+    letter-spacing: 0.03em
+    text-transform: uppercase
+    color: $color-white
+    margin-bottom: 24px
+
+.pin::before
+    content: url('../img/pin.svg')
+    background-repeat: no-repeat
+    background-position: center center
+    position: absolute
+    top: 0
+    left: -35px
+.time::before
+    content: url('../img/time.svg')
+    background-repeat: no-repeat
+    background-position: center center
+    position: absolute
+    top: 0
+    left: -35px
+.phone::before
+    content: url('../img/phone.svg')
+    background-repeat: no-repeat
+    background-position: center center
+    position: absolute
+    top: 0
+    left: -35px
+
+.map-wrapper 
+    width: 738px
+    height: 430px
+.select-wrapper
+    display: flex
+.select
+    border: none
+    outline: none
+    font-family: 'Gotham'
+    font-weight: 400
+    font-size: 24px
+    line-height: 23px
+    color: $color-black
+    width: auto
+    background-color: $color-white
+    padding: 15px 35px 10px 15px
+    cursor: pointer
+
+   

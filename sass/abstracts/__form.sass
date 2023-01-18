@@ -1,0 +1,80 @@
+.form
+    min-height: 500px
+    background-color: #000000
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-gap: 100px
+    margin-bottom: 77px
+    &__img
+        max-width: 470px
+        min-height: 495px
+    &__img img
+        width: 100%
+.form-wrapper
+    margin-top: 50px
+.form-title
+    font-family: 'Gotham'
+    font-weight: 500
+    font-size: 40px
+    line-height: 50px
+    color: $color-white
+    margin-bottom: 30px
+.input-wrapper
+    display: flex
+    flex-direction: column
+    margin-bottom: 15px
+.form-input
+    width: 476px
+    height: 50px
+    background-color: transparent
+    border: none
+    border-bottom: 1px solid $color-white
+    font-family: 'Inter'
+    font-weight: 400
+    font-size: 16px
+    line-height: 123.52%
+    letter-spacing: 0.01em
+    color: $color-white
+
+.form-input::placeholder
+    color: $color-white
+.form-input:focus
+    outline: 0
+    border-bottom: 1px solid blue
+.checkbox-wrapper
+    display: flex
+    width: 318px
+    height: 35px
+    align-items: center
+    margin-bottom: 30px
+.checkbox
+    width: 15px
+    height: 15px
+    border-radius: 0px
+    margin-right: 20px
+    &-text
+        font-family: 'Inter'
+        font-weight: 200
+        font-size: 14px
+        line-height: 17px
+        color: $color-white
+button
+    border: none
+.social
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    padding-bottom: 12px
+    &-icon
+        margin-right: 20px
+    &-icon:last-child
+        margin-right: 0px
+
+        
+    &__text
+        font-family: 'Inter'
+        font-weight: 200
+        font-size: 12px
+        line-height: 15px
+        color: $color-white
+        margin-top: 23px
